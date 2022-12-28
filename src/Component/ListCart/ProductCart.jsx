@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function productCart() {
+function ProductCart() {
     const [productlist, setProducList] = useState([
         {
             id: 1,
@@ -145,4 +145,4 @@ function productCart() {
 }
 
 
-export default productCart
+export default ProductCart
